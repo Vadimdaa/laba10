@@ -197,7 +197,13 @@ const checkWin = () => {
             ctx.textAlign = 'center';
             ctx.font = '30px Montserrat';
             ctx.fillText(`${winner} побеждает`, w / 2, h / 2);
-
+            if(winner === 'Крестик') {
+                p1_score++;
+                document.querySelector('#player1').textContent = p1_score;
+            } else {
+                p2_score++;
+                document.querySelector('#player2').textContent = p2_score;
+            }
             return;
         }
     }
@@ -293,4 +299,13 @@ canv.addEventListener('click', e => {
         }
         checkWin();
     }
+});
+
+nround.addEventListener('click', () => {
+    init();
+    drawField(white, gap);
+});
+reset.addEventListener('click', () => {
+    init(true);
+    drawField(white, gap);
 });
