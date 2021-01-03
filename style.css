@@ -59,3 +59,6 @@ p {
 #tik {
     cursor: pointer;
 }
+canvas {
+    padding: 25px;
+}

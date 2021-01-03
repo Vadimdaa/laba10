@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Тик так</title>
 </head>
@@ -28,9 +28,9 @@
     </container>
     <container>
         <h1>Ход</h1>
-        <p class="lead" id="motion">Ходит первый игрок - Х</p> 
-    <canvas id="tik" width="330px" height="330px"></canvas>
-    <div class="btns">
+        <p id="turn">Ходит первый игрок - Х</p> 
+    <canvas id="tic" width="330px" height="330px"></canvas>
+    <div>
       <button id="new">Новый раунд</button>
       <button id="reset">Сброс</button>
     </div>
