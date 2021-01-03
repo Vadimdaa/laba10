@@ -1,0 +1,61 @@
+* {
+    padding: 2px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(255, 222, 173, 0.671);
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+#game-title {
+    padding-top: 30px;
+}
+.score {
+    display: flex;
+    padding: 10px;
+}
+.score1 {
+    position: relative;
+    left: 41%;
+    
+}
+.score2 {
+    position: relative;
+    left: 45%;
+}
+p {
+    padding-top: 10px;
+    text-shadow: white 0 0 5px;
+}
+#new {
+    background-color: green;
+    border: 0;
+    padding: 5px;
+    position: relative;
+    right: 30px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+#reset {
+    background-color: rgba(255, 0, 0, 0.801);
+    width: 150px;
+    border: 0;
+    padding: 5px;
+    position: relative;
+    left: 15px;
+    height: 30px;
+    color: white;
+    border-bottom: gainsboro;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+#tik {
+    cursor: pointer;
+}

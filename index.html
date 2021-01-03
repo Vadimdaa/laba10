@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Тик так</title>
+</head>
+<body>
+    <div id="game-title">
+        <h1>Крестики-нолики</h1>
+        <p>Простая игра в крестики-нолики</p>
+    </div>
+    <container class="score-container">
+        <div class="pob">
+            <h1>Количество побед</h1>
+        </div>
+        <div class="score">
+        <div class = "score1">
+            Первый игрок:<span id = 'player1'> 0</span>
+        </div>
+        <div class="score2">
+            Второй игрок:<span id = 'player2'> 0</span>
+        </div>
+        </div>
+    </container>
+    <container>
+        <h1>Ход</h1>
+        <p class="lead" id="motion">Ходит первый игрок - Х</p> 
+    <canvas id="tik" width="330px" height="330px"></canvas>
+    <div class="btns">
+      <button id="new">Новый раунд</button>
+      <button id="reset">Сброс</button>
+    </div>
+    </container>
+</body>
+</html>
